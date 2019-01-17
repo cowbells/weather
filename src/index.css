@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html {
+  min-height: 100%;
+}
+body {
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  background-image: url('cloud1.png'),
+  url('cloud2.png'),
+  linear-gradient(to bottom,#367CD6, #183968); /*rgba(54, 124, 214, 1), rgba(24, 57, 104, 0));*/
+  background-repeat: no-repeat,
+  no-repeat,
+  no-repeat;
+  background-position: 25% 45%,
+  70% 35%;
+}
+#weatherContainer {
+  width:0%;
+  height:0px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color:rgb(74,144,226, 0.3);
+  box-shadow:0 0 10px #183968;
+  border-radius:10px;
+  }
+#currentDayWeather {
+  height:65%;
+}
+#fiveDayUpdate {
+  height:35%;
+  background-color: rgba(255,255,255,1);
+  border-radius: 0 0 10px 10px;
+}
+.searchCity {
+  margin: 25px auto;
+  width: 80%;
+  border-bottom: 1px solid #183968;
+}
+.weather-container {
+  height: inherit;
+}
+.weather-container i {
+  color:#183968;
+}
+.weather-container-input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.main-container-temperature {
+  font-size: 100px;
+  text-align: right;
+  width: 100%;
+  color: #FFF;
+  display: inline-block;
+}
+.main-container-farenheit {
+  font-size: 30px;
+  text-align: left;
+  color: #FFF;
+}
+.main-container-desc {
+  font-size: 20px;
+  text-align: left;
+  color: #FFF;
+}
+.weather-main {
+  margin-bottom:40px;
+  min-height: 135px;
+}
+.main-container-left {
+  width: 65%;
+  height: 100%;
+  display: inline-block;
+}
+.main-container-right {
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+}
+.day-container-image {
+  width: 50px;
+  height: 50px;
+}
+.weather-list {
+  background-color: #fff;
+  color: #ccc;
+  height:160px;
+  border-radius: 0 0 10px 10px;
+}
+.col {
+  width:15%;
+  text-align:center;
+  float: left;
+  padding:12px;
+  border-left:1px solid #ccc;
+  margin-top: 10px;
+}
+.day-container-max-temp, .day-container-min-temp {
+  color:#183968;
+}
+.day-container-min-temp {
+font-size:14px;
+}
